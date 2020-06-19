@@ -1,0 +1,15 @@
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\obj\Debug\netcoreapp3.1\MamasSuperMarket.csprojAssemblyReference.cache
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\obj\Debug\netcoreapp3.1\MamasSuperMarket.AssemblyInfoInputs.cache
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\obj\Debug\netcoreapp3.1\MamasSuperMarket.AssemblyInfo.cs
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\obj\Debug\netcoreapp3.1\MamasSuperMarket.csproj.CoreCompileInputs.cache
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\bin\Debug\netcoreapp3.1\MamasSuperMarket.exe
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\bin\Debug\netcoreapp3.1\MamasSuperMarket.deps.json
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\bin\Debug\netcoreapp3.1\MamasSuperMarket.runtimeconfig.json
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\bin\Debug\netcoreapp3.1\MamasSuperMarket.runtimeconfig.dev.json
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\bin\Debug\netcoreapp3.1\MamasSuperMarket.dll
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\bin\Debug\netcoreapp3.1\MamasSuperMarket.pdb
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\bin\Debug\netcoreapp3.1\ConsoleTables.dll
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\obj\Debug\netcoreapp3.1\MamasSuperMarket.csproj.CopyComplete
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\obj\Debug\netcoreapp3.1\MamasSuperMarket.dll
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\obj\Debug\netcoreapp3.1\MamasSuperMarket.pdb
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket\obj\Debug\netcoreapp3.1\MamasSuperMarket.genruntimeconfig.cache
