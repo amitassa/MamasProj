@@ -24,7 +24,7 @@ namespace MMSuperMarket
         {
             get
             {
-                if (instance == null)
+                if (instance is null)
                 {
                     instance = new SupermarketDB();
                 }

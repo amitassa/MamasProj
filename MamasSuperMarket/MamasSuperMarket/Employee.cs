@@ -9,18 +9,13 @@ namespace MMSuperMarket
 {
     public class Employee : Person
     {
-        public List<List<DateTime>> Shifts { get; set; }
-        public double Debt { get; set; }
-        public List<DateTime> CurrentShift { get; set; }
-        public string CurrentCashRegister { get; set; }
+        public List<List<DateTime>> Shifts { get; set; } = new List<List<DateTime>>();
+        public double Debt { get; set; } = 0;
+        public List<DateTime> CurrentShift { get; set; } = new List<DateTime>();
+        public string CurrentCashRegister { get; set; } = "0";
         public Employee(string fullname, string ID) : base(fullname, ID)
         {
-            this.Shifts = new List<List<DateTime>>();
-            this.CurrentShift = new List<DateTime>();
-            this.Debt = 0;
-            this.CurrentCashRegister = "0";
             SupermarketDB.Instance.AddEmployeeToList(this);
-
         }
 
     }

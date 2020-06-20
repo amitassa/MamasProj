@@ -77,7 +77,7 @@ namespace MMSuperMarket
         /// </summary>
         public static bool BuyAProduct(ProductType pt)
         {
-            if (pt == null)
+            if (pt is null)
                 return false;
 
             return Inventory.Instance.SubstanceFromInventory(pt);
@@ -106,7 +106,7 @@ namespace MMSuperMarket
                 }
             }
             ProductType pt = ProductHandler.GetProductTypeByID(ID);
-            if (pt == null)
+            if (pt is null)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Product not found");
@@ -127,7 +127,7 @@ namespace MMSuperMarket
         public static void ChangeStatusToShipment()
         {
             ProductOrder PO = ProductHandler.GetOrderByID();
-            if (PO == null)
+            if (PO is null)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Product order not found");

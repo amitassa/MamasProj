@@ -104,10 +104,11 @@ namespace MMSuperMarket
         {
             bool validUserInput = false;
             bool isolated = false;
+            string mask_choice = null;
             while (validUserInput == false)
             {
                 Console.Write("Do you need to be in isolation [y/n]? ");
-                string mask_choice = Console.ReadLine();
+                mask_choice = Console.ReadLine();
                 switch (mask_choice.ToLower())
                 {
                     case "y":

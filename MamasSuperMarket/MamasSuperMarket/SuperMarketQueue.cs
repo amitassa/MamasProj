@@ -26,7 +26,7 @@ namespace MMSuperMarket
             {
                 
                 CashRegister cr = CashRegister.MostAvailableCashRegister();
-                if (cr == null)
+                if (cr is null)
                 {
                     Console.WriteLine("No cash register available");
                     return;
@@ -76,13 +76,13 @@ namespace MMSuperMarket
         public void CustomersInTheLine()
         {
             Queue<Customer> NewCustQueue = new Queue<Customer>(this.CustQueue);
-            string CustomersNames = "";
+            string CustomersNames = null;
             foreach (Customer c in NewCustQueue)
             {
                 CustomersNames += c.FullName + ", ";
             }
 
-            if (CustomersNames != "")
+            if (!String.IsNullOrWhiteSpace(CustomersNames))
             {
                 int charindex = CustomersNames.LastIndexOf(',');
                 CustomersNames = CustomersNames.Remove(charindex, 2);

@@ -29,10 +29,7 @@ namespace MMSuperMarket
                     }
                 }
             }
-            catch (ArgumentNullException ex)
-            {
-
-            }
+            catch{ }
             Console.Write("Enter employee`s name: ");
             string emp_name = Console.ReadLine();
             Employee New_Emp = new Employee(emp_name, ID);
@@ -58,7 +55,7 @@ namespace MMSuperMarket
                 if (IsEmployeeAllowedToWork(emp))
                 {
                     CashRegister CurrentCR = CashRegister.GetClosedCashRegister();
-                    if (CurrentCR == null)
+                    if (CurrentCR is null)
                     {
                         Console.WriteLine($"No cash register available. You can`t start your shift, {emp.FullName}");
                         return;
@@ -116,7 +113,7 @@ namespace MMSuperMarket
         {
             string string_ID = PersonHandler.ValidatedID();
             Employee emp = GetEmployeeByID(string_ID);
-            if (emp == null)
+            if (emp is null)
             {
                 return;
             }

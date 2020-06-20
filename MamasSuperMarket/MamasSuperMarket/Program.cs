@@ -128,8 +128,12 @@ namespace MMSuperMarket
                     case 2:
                         Console.Write("Customers to insert: ");
                         string string_count = Console.ReadLine();
-                        int count = int.Parse(string_count);
-                        CustQueue.InsertMultipleCustomersToSuperMarket(count);
+                        try
+                        { 
+                            int count = int.Parse(string_count);
+                            CustQueue.InsertMultipleCustomersToSuperMarket(count);
+                        }
+                        catch { Console.WriteLine("Wrong input!"); }
                         break;
                     case 3:
                         CustQueue.CustomersInTheLine();
@@ -189,7 +193,7 @@ namespace MMSuperMarket
             Console.Write("Welcome to cash register management menu. Please enter cash register number [1/2/3/4]: ");
             string reg_choice = Console.ReadLine();
             CashRegister CRegister = GetCashRegisterByNumber(reg_choice);
-            if (CRegister == null)
+            if (CRegister is null)
             {
                 Console.WriteLine("Cash register doesn`t exist.");
                 return;
@@ -370,7 +374,7 @@ namespace MMSuperMarket
         {
             string string_ID = PersonHandler.ValidatedID();
             Employee emp = EmployeeHandler.GetEmployeeByID(string_ID);
-            if (emp == null) {return; }
+            if (emp is null) {return; }
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"What would you like to do, {emp.FullName}?");
             sb.AppendLine("1 - Start a shift");
@@ -443,7 +447,7 @@ namespace MMSuperMarket
         {
             string string_ID = PersonHandler.ValidatedID();
             Employee emp = EmployeeHandler.GetEmployeeByID(string_ID);
-            if (emp == null) { return; }
+            if (emp is null) { return; }
             EmployeeHandler.ShowEmployeeShifts(emp);
         }
 

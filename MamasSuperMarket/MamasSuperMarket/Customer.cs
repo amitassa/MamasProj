@@ -10,13 +10,12 @@ namespace MMSuperMarket
     {
         public double BodyHeat { get; set; } // property defined in the class in order to be able to create hardcoded objects, without input
         public DateTime VisitTimeStamp { get; }
-        public List<ProductType> ShoppingList { get; }
+        public List<ProductType> ShoppingList { get; } = new List<ProductType>();
         public bool WearingMask { get; } // property defined in the class in order to be able to create hardcoded objects, without input
         public bool ShouldBeIsolated { get; } // property defined in the class in order to be able to create hardcoded objects, without input
         public Customer(string name, string ID, double heat, bool Mask, bool isolate) : base(name, ID)
         {
             BodyHeat = heat;
-            ShoppingList = new List<ProductType>();
             VisitTimeStamp = DateTime.Now;
             WearingMask = Mask;
             ShouldBeIsolated = isolate;

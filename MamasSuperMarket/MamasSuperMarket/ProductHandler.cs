@@ -13,14 +13,14 @@ namespace MMSuperMarket
         {
             Console.WriteLine("Enter the following information about the product");
             ProductType pt = GetProductTypeByID();
-            if (pt == null)
+            if (pt is null)
             {
                 Console.WriteLine("Product type not found");
                 return;
             }
             Console.WriteLine("How much new products to add? (Numbers Only): ");
             string string_amount = Console.ReadLine();
-            int amount = 0;
+            int amount;
             try { amount = int.Parse(string_amount); }
             catch { Console.WriteLine("Wrong Input"); return; }
             Inventory.Instance.AddToInventory(pt.ID, amount);
