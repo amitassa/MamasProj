@@ -1,0 +1,15 @@
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\bin\Debug\netcoreapp3.1\MamasSuperMarket.DAL.exe
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\obj\Debug\netcoreapp3.1\MamasSuperMarket.DAL.csprojAssemblyReference.cache
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\obj\Debug\netcoreapp3.1\MamasSuperMarket.DAL.AssemblyInfoInputs.cache
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\obj\Debug\netcoreapp3.1\MamasSuperMarket.DAL.AssemblyInfo.cs
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\obj\Debug\netcoreapp3.1\MamasSuperMarket.DAL.csproj.CoreCompileInputs.cache
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\bin\Debug\netcoreapp3.1\MamasSuperMarket.DAL.deps.json
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\bin\Debug\netcoreapp3.1\MamasSuperMarket.DAL.runtimeconfig.json
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\bin\Debug\netcoreapp3.1\MamasSuperMarket.DAL.runtimeconfig.dev.json
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\bin\Debug\netcoreapp3.1\MamasSuperMarket.DAL.dll
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\bin\Debug\netcoreapp3.1\MamasSuperMarket.DAL.pdb
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\bin\Debug\netcoreapp3.1\ConsoleTables.dll
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\obj\Debug\netcoreapp3.1\MamasSuperMarket.DAL.csproj.CopyComplete
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\obj\Debug\netcoreapp3.1\MamasSuperMarket.DAL.dll
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\obj\Debug\netcoreapp3.1\MamasSuperMarket.DAL.pdb
+C:\Users\amita\Documents\GitHub\MamasProj\MamasSuperMarket\MamasSuperMarket.DAL\obj\Debug\netcoreapp3.1\MamasSuperMarket.DAL.genruntimeconfig.cache

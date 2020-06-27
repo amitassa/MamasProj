@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UMzH2OmH07AoZoyQtXox2s0AqHDpdwtUVDyqVUxGme0bEjfqR8XoSjDLofOqE3JZLe9LKN1xocFYceQr2O0kSw==",
+  "dgSpecHash": "WvrDynqu8e/x6rmT0YCARJ1GkxRKGaOPXVplppkcYIdU+9wYUvA6jWAywXj7fGXih4jGMzzZO/KFBnKlEEgfKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\amita\\Documents\\GitHub\\MamasProj\\MamasSuperMarket\\MamasSuperMarket\\MamasSuperMarket.APP.csproj",
+  "projectFilePath": "C:\\Users\\amita\\Documents\\GitHub\\MamasProj\\MamasSuperMarket\\MamasSuperMarket.BLL\\MamasSuperMarket.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\amita\\.nuget\\packages\\consoletables\\2.4.2\\consoletables.2.4.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

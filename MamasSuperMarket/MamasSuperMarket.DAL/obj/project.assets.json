@@ -113,33 +113,6 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
-      },
-      "MamasSuperMarket.BLL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "ConsoleTables": "2.4.2",
-          "MamasSuperMarket.DAL": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/MamasSuperMarket.BLL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MamasSuperMarket.BLL.dll": {}
-        }
-      },
-      "MamasSuperMarket.DAL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "ConsoleTables": "2.4.2"
-        },
-        "compile": {
-          "bin/placeholder/MamasSuperMarket.DAL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MamasSuperMarket.DAL.dll": {}
-        }
       }
     }
   },
@@ -683,22 +656,11 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
-    },
-    "MamasSuperMarket.BLL/1.0.0": {
-      "type": "project",
-      "path": "../MamasSuperMarket.BLL/MamasSuperMarket.BLL.csproj",
-      "msbuildProject": "../MamasSuperMarket.BLL/MamasSuperMarket.BLL.csproj"
-    },
-    "MamasSuperMarket.DAL/1.0.0": {
-      "type": "project",
-      "path": "../MamasSuperMarket.DAL/MamasSuperMarket.DAL.csproj",
-      "msbuildProject": "../MamasSuperMarket.DAL/MamasSuperMarket.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ConsoleTables >= 2.4.2",
-      "MamasSuperMarket.BLL >= 1.0.0"
+      "ConsoleTables >= 2.4.2"
     ]
   },
   "packageFolders": {
@@ -708,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amita\\Documents\\GitHub\\MamasProj\\MamasSuperMarket\\MamasSuperMarket\\MamasSuperMarket.APP.csproj",
-      "projectName": "MamasSuperMarket.APP",
-      "projectPath": "C:\\Users\\amita\\Documents\\GitHub\\MamasProj\\MamasSuperMarket\\MamasSuperMarket\\MamasSuperMarket.APP.csproj",
+      "projectUniqueName": "C:\\Users\\amita\\Documents\\GitHub\\MamasProj\\MamasSuperMarket\\MamasSuperMarket.DAL\\MamasSuperMarket.DAL.csproj",
+      "projectName": "MamasSuperMarket.DAL",
+      "projectPath": "C:\\Users\\amita\\Documents\\GitHub\\MamasProj\\MamasSuperMarket\\MamasSuperMarket.DAL\\MamasSuperMarket.DAL.csproj",
       "packagesPath": "C:\\Users\\amita\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amita\\Documents\\GitHub\\MamasProj\\MamasSuperMarket\\MamasSuperMarket\\obj\\",
+      "outputPath": "C:\\Users\\amita\\Documents\\GitHub\\MamasProj\\MamasSuperMarket\\MamasSuperMarket.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -730,11 +692,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\Users\\amita\\Documents\\GitHub\\MamasProj\\MamasSuperMarket\\MamasSuperMarket.BLL\\MamasSuperMarket.BLL.csproj": {
-              "projectPath": "C:\\Users\\amita\\Documents\\GitHub\\MamasProj\\MamasSuperMarket\\MamasSuperMarket.BLL\\MamasSuperMarket.BLL.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
